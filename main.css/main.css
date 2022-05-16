@@ -1,0 +1,1229 @@
+@media only screen and (min-width: 300px) {
+  /* Propiedades generales Mobile */
+  body {
+    background-image: url("../img/fondo.jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; }
+    body header {
+      background-color: #730217D9;
+      padding: 15px; }
+      body header section {
+        height: none; }
+        body header section nav ul {
+          display: flex;
+          justify-content: center;
+          color: white;
+          text-decoration: none; }
+          body header section nav ul li {
+            list-style: none;
+            text-decoration: none;
+            padding-top: 8px; }
+            body header section nav ul li:hover {
+              background-color: #c50d2ed9;
+              padding: 5px; }
+            body header section nav ul li a {
+              text-decoration: none !important;
+              list-style: none;
+              text-transform: uppercase;
+              font-family: 'Montserrat', sans-serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+              color: white !important;
+              font-size: 0.7rem;
+              font-weight: bold;
+              margin: 4px; }
+      body header .sacarSub {
+        padding: 0 !important;
+        text-decoration: none !important; }
+        body header .sacarSub .nombreDire {
+          padding-top: 10px !important;
+          font-size: 20px !important;
+          text-transform: uppercase !important;
+          color: white !important;
+          font-family: 'Montserrat', sans-serif !important;
+          text-align: center !important; }
+    body main .padreMain {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      width: 340px;
+      margin-top: 30px;
+      margin-bottom: 30px;
+      background-color: white;
+      padding: 10px;
+      font-family: 'Montserrat', sans-serif;
+      margin-right: auto;
+      margin-left: auto; }
+      body main .padreMain h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      body main .padreMain .hijos {
+        display: flex;
+        flex-direction: column; }
+        body main .padreMain .hijos img {
+          padding-left: 0.9px;
+          padding-bottom: 5px;
+          width: auto; }
+        body main .padreMain .hijos p {
+          text-align: justify;
+          padding: 10px;
+          color: black;
+          background-color: #F0EBEF;
+          float: left;
+          font-size: 20px;
+          font-weight: bold; }
+    body footer {
+      background-color: #730217D9;
+      align-content: center;
+      padding: 5px;
+      bottom: 0;
+      margin-top: auto;
+      justify-content: space-around; }
+      body footer p {
+        padding-top: 10px;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-family: 'Montserrat'; }
+      body footer section nav {
+        height: none; }
+        body footer section nav ul {
+          justify-content: center;
+          color: white;
+          display: flex;
+          flex-direction: row;
+          text-decoration: none; }
+          body footer section nav ul li {
+            list-style: none;
+            padding: 8px; }
+            body footer section nav ul li a {
+              color: white;
+              text-decoration: none;
+              text-transform: uppercase;
+              font-family: 'Montserrat';
+              font-size: 10px;
+              font-weight: bold;
+              text-align: center;
+              font-size: 15px; }
+            body footer section nav ul li:hover {
+              background-color: #c50d2ed9;
+              padding: 5px; }
+  /*Estilos Peliculas*/
+  #formato .peliculas {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px; }
+    #formato .peliculas .movie {
+      background-color: white;
+      width: 340px;
+      margin-bottom: 18px;
+      display: flex;
+      flex-direction: column; }
+      #formato .peliculas .movie img {
+        width: 320px;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .peliculas .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 180px;
+        width: 300px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .peliculas .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .peliculas .movie p {
+        text-align: justify;
+        padding: 10px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 20px;
+        font-weight: bold; }
+      #formato .peliculas .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .peliculas .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos Cortos*/
+  #formato .cortos {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 40px; }
+    #formato .cortos .movie {
+      background-color: white;
+      width: 340px;
+      margin-bottom: 18px;
+      display: flex;
+      flex-direction: column; }
+      #formato .cortos .movie img {
+        width: 320px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .cortos .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 180px;
+        width: 300px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .cortos .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 15px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .cortos .movie p {
+        text-align: justify;
+        padding: 10px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 20px;
+        font-weight: bold; }
+      #formato .cortos .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .cortos .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos videoclips*/
+  #formato {
+    margin-top: 20px; }
+    #formato section .movie {
+      background-color: white;
+      width: 340px;
+      margin-bottom: 18px;
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto; }
+      #formato section .movie img {
+        width: 320px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato section .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 180px;
+        width: 300px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato section .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-family: 'Montserrat';
+        text-transform: uppercase; }
+      #formato section .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-family: 'Montserrat';
+        text-transform: uppercase; }
+  /*Estilos Contacto*/
+  .contacto {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bold;
+    background-size: 100% 100%;
+    width: 420px;
+    height: 80vh;
+    margin: auto; }
+    .contacto .head {
+      background-color: #730217D9;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: -70px;
+      box-shadow: -1px 4px 20px -4px #fc4365d9; }
+    .contacto .btn1 {
+      background-color: #730217D9;
+      color: white;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      border-radius: 5px;
+      height: 60px;
+      width: auto;
+      padding: 5px;
+      margin-left: 30px; }
+    .contacto form input {
+      width: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 150px; } }
+
+@media only screen and (min-width: 765px) {
+  body header {
+    padding: 10px !important;
+    display: flex !important;
+    justify-content: space-around !important; }
+    body header section nav ul li a {
+      font-size: 15px !important; }
+  body main .padreMain {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: auto;
+    margin-left: auto; }
+    body main .padreMain .hijos {
+      display: flex;
+      flex-direction: row; }
+      body main .padreMain .hijos p {
+        text-align: justify;
+        padding: 15px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 21.1px;
+        font-weight: bold; }
+      body main .padreMain .hijos img {
+        padding-left: 0.9px;
+        padding-bottom: 5px; }
+  body footer {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; }
+    body footer section nav ul {
+      padding: 5px; }
+      body footer section nav ul li a {
+        font-size: 15px; }
+  /*Estilos peliculas*/
+  #formato .peliculas {
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 370px;
+    padding-bottom: 40px; }
+    #formato .peliculas .movie {
+      background-color: white;
+      width: 640px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column; }
+      #formato .peliculas .movie img {
+        width: 620px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .peliculas .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 360px;
+        width: 620px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .peliculas .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .peliculas .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .peliculas .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .peliculas .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-size: 22px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos cortos*/
+  #formato .cortos {
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 370px;
+    padding-bottom: 40px; }
+    #formato .cortos .movie {
+      background-color: white;
+      width: 640px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column; }
+      #formato .cortos .movie img {
+        width: 620px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .cortos .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 360px;
+        width: 620px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .cortos .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .cortos .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .cortos .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .cortos .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-size: 22px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos videoclips*/
+  #formato {
+    height: 30vh; }
+    #formato section {
+      display: flex;
+      flex-direction: row;
+      margin-left: 25px; }
+      #formato section .orden {
+        margin: 15px; }
+        #formato section .orden .movie {
+          background-color: white;
+          width: 340px;
+          margin-bottom: 18px;
+          display: flex;
+          flex-direction: column;
+          margin-left: auto;
+          margin-right: auto; }
+          #formato section .orden .movie img {
+            width: 320px;
+            height: auto;
+            margin-left: 10px;
+            margin-top: 10px; }
+          #formato section .orden .movie .videoT {
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            height: 180px;
+            width: 300px;
+            margin: 10px;
+            margin-top: 5px;
+            margin-right: auto;
+            margin-left: auto; }
+          #formato section .orden .movie h2 {
+            color: white;
+            text-align: center;
+            background-color: #730217D9;
+            padding: 9px;
+            font-family: 'Montserrat';
+            text-transform: uppercase; }
+          #formato section .orden .movie h3 {
+            color: white;
+            text-align: center;
+            background-color: #730217D9;
+            padding: 9px;
+            font-family: 'Montserrat';
+            text-transform: uppercase; }
+  /*Estilos Contacto*/
+  .contacto {
+    margin-top: 40px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bold;
+    background-size: 100% 100%;
+    width: 990px;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto; }
+    .contacto .head {
+      background-color: #730217D9;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: -70px;
+      box-shadow: -1px 4px 20px -4px #fc4365d9; }
+    .contacto .btn1 {
+      background-color: #730217D9;
+      color: white;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      border-radius: 5px;
+      height: 60px;
+      width: auto;
+      padding: 5px;
+      margin-left: 30px; }
+    .contacto form input {
+      width: 100px;
+      margin-left: 200px;
+      margin-right: 100px;
+      font-size: 150px; } }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@media only screen and (min-width: 1024px) {
+  /*Estilos Peliculas*/
+  #formato .peliculas {
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 490px;
+    padding-bottom: 40px; }
+    #formato .peliculas .movie {
+      background-color: white;
+      width: 640px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column; }
+      #formato .peliculas .movie img {
+        width: 620px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .peliculas .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 360px;
+        width: 620px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .peliculas .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .peliculas .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .peliculas .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .peliculas .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-size: 22px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos cortos*/
+  #formato .cortos {
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 490px;
+    padding-bottom: 40px; }
+    #formato .cortos .movie {
+      background-color: white;
+      width: 640px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column; }
+      #formato .cortos .movie img {
+        width: 620px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .cortos .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 360px;
+        width: 620px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .cortos .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .cortos .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .cortos .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .cortos .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-size: 22px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos videoclips*/
+  #formato section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 125px; }
+    #formato section .orden {
+      margin: 15px; }
+      #formato section .orden .movie {
+        background-color: white;
+        width: 340px;
+        margin-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto; }
+        #formato section .orden .movie img {
+          width: 320px;
+          height: auto;
+          margin-left: 10px;
+          margin-top: 10px; }
+        #formato section .orden .movie .videoT {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          height: 180px;
+          width: 300px;
+          margin: 10px;
+          margin-top: 5px;
+          margin-right: auto;
+          margin-left: auto; }
+        #formato section .orden .movie h2 {
+          color: white;
+          text-align: center;
+          background-color: #730217D9;
+          padding: 9px;
+          font-family: 'Montserrat';
+          text-transform: uppercase; }
+        #formato section .orden .movie h3 {
+          color: white;
+          text-align: center;
+          background-color: #730217D9;
+          padding: 9px;
+          font-family: 'Montserrat';
+          text-transform: uppercase; }
+  /*Estilos Contacto*/
+  .contacto {
+    margin-top: 40px;
+    font-size: 28px;
+    color: white;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: bold;
+    background-size: 100% 100%;
+    width: 990px;
+    height: 55vh;
+    margin-left: auto;
+    margin-right: auto; }
+    .contacto .head {
+      background-color: #730217D9;
+      border-radius: 5px;
+      padding: 5px;
+      margin-top: -70px;
+      box-shadow: -1px 4px 20px -4px #fc4365d9; }
+    .contacto .btn1 {
+      background-color: #730217D9;
+      color: white;
+      font-family: 'Montserrat';
+      text-transform: uppercase;
+      border-radius: 5px;
+      height: 60px;
+      width: auto;
+      padding: 5px;
+      margin-left: 30px; }
+    .contacto form input {
+      width: 100px;
+      margin-left: 200px;
+      margin-right: 100px;
+      font-size: 150px; } }
+
+@media only screen and (min-width: 1200px) {
+  /*Estilos Peliculas*/
+  #formato .peliculas {
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 650px;
+    padding-bottom: 40px; }
+    #formato .peliculas .movie {
+      background-color: white;
+      width: 640px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column; }
+      #formato .peliculas .movie img {
+        width: 620px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .peliculas .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 360px;
+        width: 620px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .peliculas .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .peliculas .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .peliculas .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .peliculas .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-size: 22px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos cortos*/
+  #formato .cortos {
+    align-content: center;
+    width: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 650px;
+    padding-bottom: 40px; }
+    #formato .cortos .movie {
+      background-color: white;
+      width: 640px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column; }
+      #formato .cortos .movie img {
+        width: 620px;
+        height: auto;
+        margin-left: 10px;
+        margin-top: 10px; }
+      #formato .cortos .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 360px;
+        width: 620px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .cortos .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .cortos .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .cortos .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .cortos .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px;
+        font-size: 22px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos videoclips*/
+  #formato section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 305px; }
+    #formato section .orden {
+      margin: 15px; }
+      #formato section .orden .movie {
+        background-color: white;
+        width: 340px;
+        margin-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto; }
+        #formato section .orden .movie img {
+          width: 320px;
+          height: auto;
+          margin-left: 10px;
+          margin-top: 10px; }
+        #formato section .orden .movie .videoT {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          height: 180px;
+          width: 300px;
+          margin: 10px;
+          margin-top: 5px;
+          margin-right: auto;
+          margin-left: auto; }
+        #formato section .orden .movie h2 {
+          color: white;
+          text-align: center;
+          background-color: #730217D9;
+          padding: 9px;
+          font-family: 'Montserrat';
+          text-transform: uppercase; }
+        #formato section .orden .movie h3 {
+          color: white;
+          text-align: center;
+          background-color: #730217D9;
+          padding: 9px;
+          font-family: 'Montserrat';
+          text-transform: uppercase; } }
+
+@media only screen and (min-width: 1310px) {
+  #formato #volverA {
+    padding-left: 850px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos Peliculas*/
+  #formato .peliculas {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1500px;
+    padding-bottom: 40px; }
+    #formato .peliculas .movie {
+      background-color: white;
+      width: 500px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px; }
+      #formato .peliculas .movie img {
+        width: 420px;
+        height: auto;
+        margin: 10px;
+        margin-top: 10px; }
+      #formato .peliculas .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 240px;
+        width: 400px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .peliculas .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .peliculas .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .peliculas .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .peliculas .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos cortos*/
+  #formato .cortos {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 140px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 1500px;
+    padding-bottom: 40px; }
+    #formato .cortos .movie {
+      background-color: white;
+      width: 500px;
+      margin-bottom: 28px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px; }
+      #formato .cortos .movie img {
+        width: 420px;
+        height: auto;
+        margin: 10px;
+        margin-top: 10px; }
+      #formato .cortos .movie .videoT {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        height: 240px;
+        width: 400px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-right: auto;
+        margin-left: auto; }
+      #formato .cortos .movie #botones {
+        display: flex;
+        background-color: #730217D9;
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 25px;
+        list-style: none;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        width: auto;
+        height: auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5px;
+        font-weight: bold; }
+      #formato .cortos .movie p {
+        text-align: justify;
+        padding: 14px;
+        color: black;
+        background-color: #F0EBEF;
+        float: left;
+        font-size: 22px;
+        font-weight: bold; }
+      #formato .cortos .movie h2 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+      #formato .cortos .movie h3 {
+        color: white;
+        text-align: center;
+        background-color: #730217D9;
+        padding: 9px; }
+  #volverA {
+    padding-left: 90px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white; }
+  /*Estilos videoclips*/
+  #formato section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 525px; }
+    #formato section .orden {
+      margin: 15px; }
+      #formato section .orden .movie {
+        background-color: white;
+        width: 340px;
+        margin-bottom: 18px;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto; }
+        #formato section .orden .movie img {
+          width: 320px;
+          height: auto;
+          margin-left: 10px;
+          margin-top: 10px; }
+        #formato section .orden .movie .videoT {
+          display: flex;
+          flex-direction: column;
+          align-content: center;
+          height: 180px;
+          width: 300px;
+          margin: 10px;
+          margin-top: 5px;
+          margin-right: auto;
+          margin-left: auto; }
+        #formato section .orden .movie h2 {
+          color: white;
+          text-align: center;
+          background-color: #730217D9;
+          padding: 9px;
+          font-family: 'Montserrat';
+          text-transform: uppercase; }
+        #formato section .orden .movie h3 {
+          color: white;
+          text-align: center;
+          background-color: #730217D9;
+          padding: 9px;
+          font-family: 'Montserrat';
+          text-transform: uppercase; } }
